@@ -7,7 +7,6 @@ num5 = int(input("Ingrese un numero: "))
 suma = num1 + num2 + num3 + num4 + num5
 if num1 % 2 == 0 and num1 >= 0:
     print("El numero 1 es par y positivo")
-    num1 in suma
 elif num1 % 2 == 0 and num1 <= 0:
     print("El numero 1 es par pero no es positivo")
 else:
@@ -40,5 +39,4 @@ elif num5 % 2 == 0 and num5 <= 0:
     print("El numero 5 es par pero no es positivo")
 else:
     print("El numero 5 no es par ni es positivo")
-suma = num1 + num2 + num3 + num4 + num5
-print(suma)
+print(f"La suma de los numeros es: {suma}")
